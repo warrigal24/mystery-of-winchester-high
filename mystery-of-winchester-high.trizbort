@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort version="1.5.9.3">
+	<info>
+		<title>The Mystery of Winchester High</title>
+		<author>Garry Francis</author>
+	</info>
+	<map>
+		<room id="7" name="Above Elevator" subtitle="" x="-280" y="640" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Elevator shaft|Power cable|Power socket|Metal cable</objects>
+		</room>
+		<room id="8" name="Secret Basement" subtitle="" x="-20" y="480" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Secret basement|Rats</objects>
+		</room>
+		<room id="10" name="Old Elevator" subtitle="" x="-280" y="560" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Old cage elevator|Elevator door|Opening|Control panel|Power switch|Handle</objects>
+		</room>
+		<room id="11" name="Old Elevator" subtitle="" x="-140" y="560" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="32" style="dashed" startText="D" endText="U">
+			<dock index="0" id="7" port="n" />
+			<dock index="1" id="10" port="s" />
+		</line>
+		<line id="34" style="dashed" startText="THL" endText="THR">
+			<dock index="0" id="10" port="e" />
+			<dock index="1" id="11" port="w" />
+		</line>
+		<line id="35" style="dashed">
+			<dock index="0" id="8" port="w" />
+			<dock index="1" id="2" port="e" />
+		</line>
+		<room id="92" name="The Mystery of Winchester High (Garry Francis)" subtitle="" x="-520" y="40" w="600" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="40" name="Old Bedroom" subtitle="" x="-20" y="320" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Old bedroom|Antique furniture|Four-poster bed|Bookshelf|Books|Cobwebs|Painting|Wooden frame|Plaque|(Safe)|(Dial)|(Carpet bag)|(Money)|(Stocks and bonds)|(Note)</objects>
+		</room>
+		<room id="44" name="Old Library" subtitle="" x="-20" y="400" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Old library|Furniture|Bookshelf|Books|Cobwebs</objects>
+		</room>
+		<room id="66" name="Secretary's Office" subtitle="" x="-400" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Secretary's office|Desk|Pencil|Drawer|(Notepad)|(Cheese sandwich)|Keyhole|Stool|Broken glass</objects>
+		</room>
+		<room id="67" name="Classroom" subtitle="" x="-280" y="80" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Classroom|Blackboard|Teacher|(Ink splotch on blouse)|Students|Framed certificate on wall|Closed desk|Exercise book|Fountain pen|(Open desk)|(Ink bottle)|(School uniform)|(Pocket)|(Student ID card)|Classroom door</objects>
+		</room>
+		<room id="69" name="Secret Passageway" subtitle="" x="-280" y="400" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Secret passageway|Wooden stairway</objects>
+		</room>
+		<room id="70" name="Outside Sec's Office" subtitle="" x="-400" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Secretary's office|Dark timber panels|Office door|Office door lock|Dummy key|Glass panel|Sign</objects>
+		</room>
+		<room id="71" name="Hallway" subtitle="" x="-280" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Hallway|Dark timber panels|Entry to boys' locker room|Classroom door|Classroom door lock|Bubbler|Button|Shollow pool of water|(Bobby pin)|(Principal)</objects>
+		</room>
+		<room id="72" name="Janitor's Workshop" subtitle="" x="-160" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Janitor's workshop|Junk|Janitor|(Two batteries)|Workbench|Hammer|Plunger|Drawers|(Tools)</objects>
+		</room>
+		<room id="73" name="Inside Locker 50" subtitle="" x="-280" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Inside locker|Back panel|Four screws|Towel|(Dark secret passage)</objects>
+		</room>
+		<room id="76" name="Deck of Pool" subtitle="" x="-400" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Deck|Concrete floor|Swimming pool|Pool attendant|Metallic glint|Large sign|Small sign|Mop|(Small screwdriver)</objects>
+		</room>
+		<room id="77" name="Boys' Locker Room" subtitle="" x="-280" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Boys' locker room|Bench seats|Lockers|(Locker)|(Locker 50)|(Towel)|(Locker 67)|(Swimming trunks)</objects>
+		</room>
+		<room id="78" name="Boys' Bathroom" subtitle="" x="-160" y="240" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Boys' bathroom|Toilet|Garbage bin|Garbage|(Torch)|(Torch switch)</objects>
+		</room>
+		<line id="127" style="dashed">
+			<dock index="0" id="66" port="s" />
+			<dock index="1" id="70" port="n" />
+		</line>
+		<line id="132" style="dashed" flow="oneWay">
+			<dock index="0" id="67" port="s" />
+			<dock index="1" id="71" port="n" />
+		</line>
+		<line id="138" style="dashed">
+			<dock index="0" id="69" port="n" />
+			<dock index="1" id="73" port="s" />
+		</line>
+		<line id="139" startText="PUSH SHELF" endText="PUSH SHELF">
+			<dock index="0" id="40" port="s" />
+			<dock index="1" id="44" port="n" />
+		</line>
+		<line id="140" style="dashed">
+			<dock index="0" id="44" port="s" />
+			<dock index="1" id="8" port="n" />
+		</line>
+		<line id="189" style="dashed">
+			<dock index="0" id="71" port="s" />
+			<dock index="1" id="77" port="n" />
+		</line>
+		<line id="191">
+			<dock index="0" id="70" port="e" />
+			<dock index="1" id="71" port="w" />
+		</line>
+		<line id="192">
+			<dock index="0" id="71" port="e" />
+			<dock index="1" id="72" port="w" />
+		</line>
+		<line id="193" style="dashed">
+			<dock index="0" id="76" port="e" />
+			<dock index="1" id="77" port="w" />
+		</line>
+		<line id="194" style="dashed">
+			<dock index="0" id="77" port="e" />
+			<dock index="1" id="78" port="w" />
+		</line>
+		<room id="207" name="Bottom of Pool" subtitle="" x="-400" y="400" w="80" h="40" region="Underwater" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Swimming pool|Florin</objects>
+		</room>
+		<line id="225" startText="D" endText="U">
+			<dock index="0" id="16" port="s" />
+			<dock index="1" id="207" port="n" />
+		</line>
+		<room id="231" name="Copyright © Garry Francis 2023" subtitle="" x="-520" y="640" w="180" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="232" name="Legend" subtitle="" x="-520" y="340" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="None" description="" roomFill="#FFFFFF" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="240" name="Start Room" subtitle="" x="-520" y="380" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" isDark="yes" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="241" name="Normal Room" subtitle="" x="-520" y="440" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="286" name="Dark Room" subtitle="" x="-520" y="560" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="no" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="0" cornerTopRight="0" cornerBottomLeft="0" cornerBottomRight="0" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="1" style="dashed">
+			<dock index="0" id="77" port="s" />
+			<dock index="1" id="73" port="n" />
+		</line>
+		<room id="2" name="Small Alcove" subtitle="" x="-140" y="480" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Small alcove|Old cage elevator|Elevator door</objects>
+		</room>
+		<room id="3" name="End of Passageway" subtitle="" x="-280" y="480" w="80" h="40" region="Dark" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">End of passageway|Old cage elevator|Elevator door</objects>
+		</room>
+		<line id="4" style="dashed">
+			<dock index="0" id="10" port="n" />
+			<dock index="1" id="3" port="s" />
+		</line>
+		<line id="5">
+			<dock index="0" id="3" port="n" />
+			<dock index="1" id="69" port="s" />
+		</line>
+		<line id="6" style="dashed">
+			<dock index="0" id="11" port="n" />
+			<dock index="1" id="2" port="s" />
+		</line>
+		<room id="9" name="Hallway" subtitle="" x="-520" y="160" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Hallway|Classroom|Dark timber panels|Classroom door|Classroom door lock|Entry to girls' locker room</objects>
+		</room>
+		<line id="12">
+			<dock index="0" id="9" port="e" />
+			<dock index="1" id="70" port="w" />
+		</line>
+		<room id="13" name="Girls' Locker Room" subtitle="" x="-520" y="240" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Dash" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="14" style="dashed">
+			<dock index="0" id="9" port="s" />
+			<dock index="1" id="13" port="n" />
+		</line>
+		<line id="15" style="dashed">
+			<dock index="0" id="76" port="w" />
+			<dock index="1" id="13" port="e" />
+		</line>
+		<room id="16" name="Swimming Pool" subtitle="" x="-400" y="320" w="80" h="40" region="Underwater" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Swimming pool|Metallic glint|</objects>
+		</room>
+		<line id="17" style="dashed">
+			<dock index="0" id="76" port="s" />
+			<dock index="1" id="16" port="n" />
+		</line>
+		<room id="18" name="In Water" subtitle="" x="-520" y="500" w="80" h="40" region="Underwater" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<line id="21" color="#FFFFFF" startText="     THL = TURN HANDLE LEFT">
+			<dock index="0" id="7" port="ene" />
+			<dock index="1" id="20" port="wnw" />
+		</line>
+		<line id="22" color="#FFFFFF" startText="     THR = TURN HANDLE RIGHT">
+			<dock index="0" id="7" port="ese" />
+			<dock index="1" id="20" port="wsw" />
+		</line>
+		<line id="19" style="dashed">
+			<dock index="0" id="3" port="n" />
+			<dock index="1" id="3" port="n" />
+		</line>
+		<room id="20" name="" subtitle="" x="-20" y="640" w="80" h="40" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="None" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw" />
+		</room>
+		<room id="23" name="Inside Locker 67" subtitle="" x="-160" y="320" w="80" h="40" region="Normal" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="1" cornerTopRight="1" cornerBottomLeft="1" cornerBottomRight="1" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSmallText="">
+			<objects at="wsw">Inside locker|Swimming trunks</objects>
+		</room>
+		<line id="24" style="dashed" startText="ENTER LOCKER 67">
+			<dock index="0" id="77" port="sse" />
+			<dock index="1" id="23" port="n" />
+		</line>
+		<line id="25" color="#FFFFFF" startText="ENTER LOCKER 50">
+			<dock index="0" id="76" port="sse" />
+			<dock index="1" id="16" port="nne" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>#FFFF99</fill>
+			<border>Black</border>
+			<line>Black</line>
+			<selectedLine>Gold</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>Black</largeText>
+			<smallText>Black</smallText>
+			<lineText>Black</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<regions>
+			<Dark Name="Dark" TextColor="Black">Silver</Dark>
+			<Dead Name="Dead" TextColor="White">Red</Dead>
+			<NoRegion Name="NoRegion" TextColor="Black">White</NoRegion>
+			<Normal Name="Normal" TextColor="Black">#FFFF80</Normal>
+			<Underwater Name="Underwater" TextColor="Black">#80FFFF</Underwater>
+		</regions>
+		<fonts>
+			<room size="12">Arial</room>
+			<object size="12">Arial Narrow</object>
+			<line size="12">Arial Narrow</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>no</showOrigin>
+			<size>20</size>
+		</grid>
+		<lines>
+			<width>1</width>
+			<handDrawn>no</handDrawn>
+			<arrowSize>8</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>10</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>20</connectionStalkLength>
+			<preferredDistanceBetweenRooms>40</preferredDistanceBetweenRooms>
+			<defaultRoomName>Cave</defaultRoomName>
+		</rooms>
+		<ui>
+			<handleSize>8</handleSize>
+			<snapToElementSize>8</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>

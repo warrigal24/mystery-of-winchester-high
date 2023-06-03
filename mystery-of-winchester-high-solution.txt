@@ -1,0 +1,226 @@
+The Mystery of Winchester High
+By Garry Francis
+For Z-code interpreters
+
+Solution by Garry Francis
+----------------------------------------
+This is a minimal solution. You'll need to EXAMINE lots of things for this solution to make sense. The beginning of the game assumes that you have the tutorial on and follow the suggestions. A lot of optional commands are shown in parentheses. You can omit these once you know what to do.
+
+(L) (this just redescribes the room)
+(X ME) (you're a 13-year-old schoolboy)
+(I) (you're wearing a school uniform)
+(X UNIFORM) (it has a pocket)
+(X POCKET) (it contains a student ID card)
+(X CARD) (you can't examine it while it's in your pocket)
+(GET IT)
+(X IT) (it has your locker details on the back)
+(READ IT) (back of card says, "#67, 849")
+(PUT IT IN POCKET)
+(REMOVE UNIFORM) (you can't strip in public, maybe later?)
+(X CLASSROOM) (it's the 4th form classroom)
+(X BLACKBOARD) (there are notes on it)
+(READ IT) (Dunedin is from the Scottish Gaelic name for Edinburgh)
+(X CERTIFICATE) (you haven't read it before)
+(READ IT) (mansion was bequeathed by Frederick H Winchester III for a school)
+(X TEACHER) (it's Miss Grumpy, your 4th form teacher)
+(TALK TO HER) (don't interrupt unless you have a question)
+(ASK HER ABOUT ME, DUNEDIN, EDINBURGH, GAELIC, HAKA, HERSELF, MANSION, MAORI, MYSTERY, NEW ZEALAND, PHILANTHROPIST, PRINCIPAL, SCHOOL, SCOTTISH, WINCHESTER)
+(X STUDENTS) (boys, girls, Maori & European descent, some sleeping)
+(X DOOR) (it's closed)
+(OPEN IT) (teacher won't let you leave, try making her angry)
+(X DESK) (it's a closed flip-top desk, it has a fountain pen & exercise book)
+(OPEN DESK) (you'll have to move the stuff off it first)
+GET BOOK
+(X IT) (it's got your notes in it)
+(READ IT) (it's stuff about Dunedin)
+(THROW IT AT TEACHER) (it hits Louise & teacher scolds you)
+GET PEN
+(X IT) (it's a fountain pen)
+(THROW IT AT TEACHER) (it hits Bruiser, teacher rescues you from a black eye)
+OPEN DESK (you find an ink bottle)
+GET INK BOTTLE
+(X IT) (it's water-based fountain pen ink)
+THROW IT AT TEACHER (it drenches her blouse, she commands you to leave room)
+(X TEACHER) (she looks angry & is waiting for you to leave)
+(X BLOUSE) (that ink spot looks nasty, you need to redeem yourself)
+(TALK TO TEACHER) ("Why are you still here?")
+OPEN DOOR
+S (teacher locks door behind you)
+S
+(X LOCKERS) (there are 80 of them and they all have a 3-digit combination)
+(X LOCKER) (which one?)
+(X LOCKER 67) (it's closed)
+(OPEN IT) (you need to unlock it)
+(UNLOCK IT) (you need to ENTER xxx IN LOCKER 67, remember your ID card?)
+ENTER 849 IN LOCKER 67 (it's unlocked)
+OPEN IT (you find your swimming trunks)
+GET TRUNKS
+(WEAR TRUNKS) (you can't wear them over your uniform)
+REMOVE UNIFORM (you're now naked)
+WEAR TRUNKS
+W
+(READ LARGE SIGN) (no swimming without proper attire)
+(READ SMALL SIGN) (no peeing in pool)
+(X POOL) (someone peed in it, you see glint of something metallic at bottom)
+(X GLINT) (you're not close enough to see what it is)
+(X ATTENDANT) (his name's George)
+(TALK TO HIM) (he says, "G'day")
+(ASK HIM ABOUT HIMSELF, ATTIRE, WINCHESTER, GREENHOUSE, TEACHER, SCHOOL, MANSION, ME, MYSTERY, POOL, PRINCIPAL)
+(S) (attendant won't let you in pool while carrying stuff)
+DROP ALL
+S
+D
+GET FLORIN
+U
+N
+GET MOP
+(X IT) (things could easily get tangled up in mop head)
+(SEARCH IT) (there's something stuck in the strings, you could spin it)
+SHAKE/WAVE/SPIN IT (a screwdriver falls out)
+DROP IT
+GET SCREWDRIVER
+GET UNIFORM
+E
+(N) (you can't wander around school in your swimming trunks)
+REMOVE TRUNKS (you're now naked)
+WEAR UNIFORM
+E
+(X BIN) (it's filled with junk)
+(X GARBAGE/JUNK) (you could search it)
+SEARCH GARBAGE (you find a discarded torch)
+GET TORCH
+(X IT) (it has a broken switch, it's empty)
+(X TOILET) (it hasn't been flushed in ages)
+FLUSH TOILET (it's blocked, better tell the janitor about it)
+W
+N
+E
+(X JANITOR) (his name's Joe, he's generous to the students)
+(TALK TO HIM) (he's worried about his job)
+(ASK HIM ABOUT HIMSELF, ATTENDANT, WINCHESTER, TEACHER, SCHOOL, MANSION, ME, MYSTERY, PLUMBING, TOILET, PRINCIPAL)
+(SHOW TORCH TO JANITOR) (if you give it to him, he'll take a look at it)
+GIVE TORCH TO JANITOR (he fixes switch & can give you some batteries...for a price)
+(X SWITCH) (looks good now that janitor has fixed it)
+GIVE FLORIN TO JANITOR (he gives you two batteries in exchange)
+(X BATTERIES) (they're D-cell batteries)
+PUT BATTERIES IN TORCH
+CLOSE TORCH
+(GET HAMMER) (janitor won't let you take it)
+TELL JANITOR ABOUT TOILET (he grabs plunger and goes off to fix it)
+GET HAMMER (you can take it now that the janitor is gone)
+W
+X BUBBLER (it has a shallow pool of water)
+X WATER (you find a bobby pin)
+GET BOBBY PIN
+(X IT) (it's good for picking locks)
+W
+(X DOOR) (it has a glass panel and sign on other side)
+(X SIGN) (there's something written on it)
+(READ IT) ('GONE TO STATIONERY STORE', you'll have to break in)
+(OPEN DOOR) (it's locked)
+BREAK PANEL WITH HAMMER (you can now reach in through the broken panel)
+UNLOCK DOOR (you reach in through broken panel & unlock it from inside)
+OPEN IT
+N
+(X DESK) (it has a drawer)
+(OPEN DRAWER) (it's locked)
+(X DRAWER) (it has a small lock)
+PICK LOCK WITH BOBBY PIN (it's now unlocked)
+OPEN DRAWER (you find a notepad & a cheese sandwich)
+(X NOTEPAD) (it has an impression on it)
+(READ IT) (you'll need to shade it)
+GET PENCIL
+(X IT) (it's a soft lead pencil)
+SHADE NOTEPAD WITH PENCIL (you should be able to read it now)
+READ IT (it says, "#50, 314")
+GET SANDWICH
+(X IT) (it's a stinky, stale cheese sandwich)
+GET STOOL
+(X IT) (it has depressions for the buttocks)
+S
+E
+S
+ENTER 314 IN LOCKER 50 (it's now unlocked)
+OPEN IT (you find a towel)
+(GET TOWEL) (you notice something about the back of the locker)
+(X LOCKER 50) (you can enter it)
+ENTER LOCKER 50 (back panel is screwed in by four screws)
+UNSCREW SCREWS WITH SCREWDRIVER (it reveals a secret passage to north)
+S (it's dark)
+TURN ON TORCH
+S
+(X ELEVATOR) (door is closed)
+(X DOOR) (there's actually two doors, inner and outer)
+OPEN DOOR
+S
+(X PANEL) (it has a power switch and handle)
+(X POWER SWITCH) (it's switched off)
+(X HANDLE) (turn right to go up & left to go down)
+(TURN HANDLE LEFT) (there's no power)
+(X OPENING) (it's too high to reach)
+DROP STOOL
+STAND ON STOOL
+U (you see power cable, power socket and metal cable)
+(X POWER CABLE) (it looks dangerous, don't handle it when power is on)
+(X SOCKET) (standard three-pin socket)
+(X METAL CABLE) (it's rusty)
+GET POWER CABLE
+(D) (you can't leave while holding the cable)
+PLUG IT INTO SOCKET
+(X METAL CABLE) (it's the weight-bearing cable and is very rusty)
+D (you lower yourself onto the stool)
+GET OFF STOOL
+TURN ON POWER SWITCH
+(TURN HANDLE LEFT) (can't move while door is open)
+CLOSE DOOR
+TURN HANDLE LEFT (elevator goes down and stops with a jerk)
+OPEN DOOR
+N
+E
+(N) (you can't walk through the swarm of rats)
+(X RATS) (they look hungry)
+GIVE SANDWICH TO RATS (they take the sandwich and run away)
+N
+(X BOOKSHELF) (it's covered in cobwebs and books)
+(X BOOKS) (they're covered in dust)
+(GET BOOK) (it kicks up a cloud of dust, so you put it back)
+(BLOW DUST) (don't do that again)
+PUSH BOOKSHELF (it spins around and pushes you into a hidden room)
+(X PAINTING) (it has a frame with a brass plaque)
+(SEARCH IT) (it has a hinge down one side)
+(X FRAME) (it has a brass plaque)
+(FEEL IT) (it has a hinge down one side)
+(X PLAQUE) (it's tarnished but legible)
+READ PLAQUE ('Frederick H Winchester III, 30 April 1849 - ')
+PULL/OPEN PAINTING (you reveal a safe)
+(OPEN SAFE) (it's locked)
+(X IT) (it's a combination safe with a dial on the front)
+(X DIAL) (you can turn it left or right)
+TURN DIAL LEFT TO 30 (day of birthday, you hear a faint click)
+TURN DIAL RIGHT TO 4 (month of birthday, you hear a faint click)
+TURN DIAL LEFT TO 49 (year of birthday, you hear a faint click, it's unlocked)
+OPEN SAFE (you find a carpet bag)
+GET BAG
+(X IT) (it's closed)
+(OPEN IT) (you find some money and a note)
+(X MONEY) (includes stocks and bonds and hundred pound bills)
+(X NOTE) (it's a hand-written message)
+(READ IT) (Frederick has left this money to support financial needs of school)
+PUSH BOOKSHELF (it spins around again)
+S
+W
+S
+CLOSE DOOR
+TURN HANDLE RIGHT (elevator goes up)
+OPEN DOOR
+N
+N
+N
+N
+N (the principal is here)
+(X PRINCIPAL) (she's upset about school closing)
+(TALK TO HER) (she asks what you're doing out of class)
+(ASK HER ABOUT ATTENDANT, WINCHESTER, TEACHER, HERSELF, SCHOOL, MANSION, ME, JANITOR, MYSTERY, PLUMBING)
+(SHOW BAG TO HER) ("Do you mind if I have a look?")
+GIVE BAG TO PRINCIPAL (woohoo, you've saved the school and get rewarded)
+***THE END***
