@@ -13,7 +13,7 @@ As a student at the school, you didn't really care about the school closing, unt
 
 It's rumoured that when the mansion was converted into a school, some parts of the former mansion were not used. You wonder whether the fortune could be found there...
 
-This is a traditional text adventure that was written for [Text Adventure Literacy Jam 2023](https://itch.io/jam/talp2023), 12 April to 31 May 2023. The game is hosted at [The Mystery of Winchester High](https://warrigal.itch.io/mystery-of-winchester-high).
+This is a traditional text adventure that was written for [Text Adventure Literacy Jam 2023](https://itch.io/jam/talp2023), 12 April to 31 May 2023.
 
 ## Release notes
 Release 1 was compiled with Inform 6 version 6.41 and the PunyInform library version 4.6. You may need to make changes if using later versions.
